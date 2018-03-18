@@ -1,8 +1,8 @@
 {
-  "name": "lg-data-side-nav",
+  "name": "side-nav",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:legulegu/lg-data-side-nav.git",
+  "repository": "git@github.com:legulegu/side-nav.git",
   "author": "benweizhu <benweizhu@gmail.com>",
   "license": "MIT",
   "dependencies": {
