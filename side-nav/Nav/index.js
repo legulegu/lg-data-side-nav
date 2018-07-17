@@ -29,7 +29,7 @@ class Nav extends React.Component {
         let navItemIndex = 0;
         React.Children.forEach(child.props.children, (childNavItem) => {
           navItemIndex ++;
-          if(location.pathname === childNavItem.props.path) {
+          if(location.pathname.includes(childNavItem.props.path)) {
             this.setState({
               openedGroup: concat(this.state.openedGroup, [child.props.index]),
               selectedGroup: child.props.index,

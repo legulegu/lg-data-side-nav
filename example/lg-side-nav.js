@@ -117,6 +117,13 @@ class App extends React.Component {
               </Link>
             </NavItem>
           </NavGroup>
+          <NavGroup title="行业数据">
+            <NavItem path="/stockdata/industry">
+              <Link href="/stockdata/industry" target="_blank">
+                行业市盈率
+              </Link>
+            </NavItem>
+          </NavGroup>
           <NavGroup title="港股市盈率">
             <NavItem path="/stockdata/market/hsi">
               <Link href="/stockdata/market/hsi" target="_blank">
