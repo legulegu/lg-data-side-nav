@@ -67,6 +67,11 @@ class App extends React.Component {
                 赚钱效应分析
               </Link>
             </NavItem>
+            <NavItem path="/stockdata/market-activity-trend">
+              <Link href="/stockdata/market-activity-trend" target="_blank">
+                赚钱效应日内趋势
+              </Link>
+            </NavItem>
           </NavGroup>
           <NavGroup title="A股市盈率">
             <NavItem path="/stockdata/market_pe">
@@ -92,6 +97,11 @@ class App extends React.Component {
             <NavItem path="/stockdata/cybPE">
               <Link href="/stockdata/cybPE" target="_blank">
                 创业板市盈率
+              </Link>
+            </NavItem>
+            <NavItem path="/stockdata/a-ttm-lyr">
+              <Link href="/stockdata/a-ttm-lyr" target="_blank">
+                全部A股市盈率
               </Link>
             </NavItem>
           </NavGroup>
