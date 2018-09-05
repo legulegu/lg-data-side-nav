@@ -126,6 +126,11 @@ class App extends React.Component {
                 中证500市盈率
               </Link>
             </NavItem>
+            <NavItem path="/stockdata/indices">
+              <Link href="/stockdata/indices" target="_blank">
+                更多指数
+              </Link>
+            </NavItem>
           </NavGroup>
           <NavGroup title="行业数据">
             <NavItem path="/stockdata/industry">
@@ -182,6 +187,50 @@ class App extends React.Component {
             <NavItem path="/stockdata/cybPB">
               <Link href="/stockdata/cybPB" target="_blank">
                 创业板市净率
+              </Link>
+            </NavItem>
+          </NavGroup>
+          <NavGroup title="A股指数市净率">
+            <NavItem path="/stockdata/sz50-pb">
+              <Link href="/stockdata/sz50-pb" target="_blank">
+                上证50市净率
+              </Link>
+            </NavItem>
+            <NavItem path="/stockdata/hs300-pb">
+              <Link href="/stockdata/hs300-pb" target="_blank">
+                沪深300市净率
+              </Link>
+            </NavItem>
+            <NavItem path="/stockdata/zzlt-pb">
+              <Link href="/stockdata/zzlt-pb" target="_blank">
+                中证流通市净率
+              </Link>
+            </NavItem>
+            <NavItem path="/stockdata/zz500-pb">
+              <Link href="/stockdata/zz500-pb" target="_blank">
+                中证500市净率
+              </Link>
+            </NavItem>
+            <NavItem path="/stockdata/indices">
+              <Link href="/stockdata/indices" target="_blank">
+                更多指数
+              </Link>
+            </NavItem>
+          </NavGroup>
+          <NavGroup title="研究">
+            <NavItem path="/stockdata/below-net-asset-statistics">
+              <Link href="/stockdata/below-net-asset-statistics" target="_blank">
+                破净股统计
+              </Link>
+            </NavItem>
+            <NavItem path="/stockdata/china-10-year-bond-yield">
+              <Link href="/stockdata/china-10-year-bond-yield" target="_blank">
+                股债轮动指标
+              </Link>
+            </NavItem>
+            <NavItem path="/stockdata/market-turn-over-ratio-statistics">
+              <Link href="/stockdata/market-turn-over-ratio-statistics" target="_blank">
+                换手率占比统计
               </Link>
             </NavItem>
           </NavGroup>
@@ -242,4 +291,4 @@ App.defaultProps = {
   expandAll: true
 };
 
-ReactDOM.render(<App />, document.querySelector(".data-center-menu"));
+ReactDOM.render(<App />, document.querySelector("#data-center"));
