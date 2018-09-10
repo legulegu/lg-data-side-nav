@@ -73,7 +73,7 @@ class App extends React.Component {
               </Link>
             </NavItem>
           </NavGroup>
-          <NavGroup title="A股市盈率">
+          <NavGroup title="A股主板市盈率">
             <NavItem path="/stockdata/market_pe">
               <Link href="/stockdata/market_pe" target="_blank">
                 A股整体市盈率
@@ -163,7 +163,7 @@ class App extends React.Component {
               </Link>
             </NavItem>
           </NavGroup>
-          <NavGroup title="A股市净率">
+          <NavGroup title="A股主板市净率">
             <NavItem path="/stockdata/market_pb">
               <Link href="/stockdata/market_pb" target="_blank">
                 A股整体市净率
